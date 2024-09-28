@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>India Scorecard - 2011</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .scorecard {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 2em;
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 1.2em;
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        .innings-header {
+            display: flex;
+            justify-content: space-between;
+            background-color: #E74C3C;
+            color: white;
+            padding: 10px;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+
+        .row {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .row:last-child {
+            border-bottom: none;
+        }
+
+        .batsman-name {
+            color: #0073e6;
+            text-decoration: none;
+        }
+
+        .column {
+            flex: 1;
+            text-align: center;
+            padding: 0 10px;
+        }
+
+        .column.batsman {
+            flex: 3;
+            text-align: left;
+        }
+
+        .extras,
+        .total {
+            font-weight: bold;
+        }
+
+        .did-not-bat {
+            color: #555;
+            padding: 10px 0;
+        }
+
+        .footer {
+            margin-top: 20px;
+            text-align: center;
+            color: #555;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="scorecard">
+        <h1>ICC WORLD CUP 2011</h1>
+        <h2>India Vs Sri Lanka Scorecard</h2>
+
+        <!-- India Innings and Score -->
+        <div class="innings-header">
+            <div class="column batsman">India Innings</div>
+            <div class="column">277-4 (48.2)</div>
+        </div>
+
+        <!-- Column Headers -->
+        <div class="row">
+            <div class="column batsman">Batsman</div>
+            <div class="column">R</div>
+            <div class="column">B</div>
+            <div class="column">4s</div>
+            <div class="column">6s</div>
+            <div class="column">SR</div>
+        </div>
+
+        <!-- Score Rows -->
+        <div class="row">
+            <div class="column batsman"><a href="#" class="batsman-name">Virender Sehwag</a> lbw b L Malinga</div>
+            <div class="column">0</div>
+            <div class="column">2</div>
+            <div class="column">0</div>
+            <div class="column">0</div>
+            <div class="column">0.00</div>
+        </div>
+
+        <div class="row">
+            <div class="column batsman"><a href="#" class="batsman-name">Sachin Tendulkar</a> c K Sangakkara b L Malinga</div>
+            <div class="column">18</div>
+            <div class="column">14</div>
+            <div class="column">2</div>
+            <div class="column">0</div>
+            <div class="column">128.57</div>
+        </div>
+
+        <div class="row">
+            <div class="column batsman"><a href="#" class="batsman-name">Gautam Gambhir</a> b T Perera</div>
+            <div class="column">97</div>
+            <div class="column">122</div>
+            <div class="column">9</div>
+            <div class="column">0</div>
+            <div class="column">79.51</div>
+        </div>
+
+        <div class="row">
+            <div class="column batsman"><a href="#" class="batsman-name">Virat Kohli</a> c & b T Dilshan</div>
+            <div class="column">35</div>
+            <div class="column">49</div>
+            <div class="column">4</div>
+            <div class="column">0</div>
+            <div class="column">71.43</div>
+        </div>
+
+        <div class="row">
+            <div class="column batsman"><a href="#" class="batsman-name">MS Dhoni (c & wk)</a> not out</div>
+            <div class="column">91</div>
+            <div class="column">79</div>
+            <div class="column">8</div>
+            <div class="column">2</div>
+            <div class="column">115.19</div>
+        </div>
+
+        <div class="row">
+            <div class="column batsman"><a href="#" class="batsman-name">Yuvraj Singh</a> not out</div>
+            <div class="column">21</div>
+            <div class="column">24</div>
+            <div class="column">2</div>
+            <div class="column">0</div>
+            <div class="column">87.50</div>
+        </div>
+
+        <!-- Extras -->
+        <div class="row extras">
+            <div class="column batsman">Extras (b 1, lb 6, w 8, nb 0, p 0)</div>
+            <div class="column">15</div>
+            <div class="column" colspan="4"></div>
+        </div>
+
+        <!-- Total -->
+        <div class="row total">
+            <div class="column batsman">Total</div>
+            <div class="column">277</div>
+            <div class="column" colspan="4">(4 wickets, 48.2 overs)</div>
+        </div>
+
+        <!-- Did not bat -->
+        <div class="did-not-bat">
+            Did not bat: Suresh Raina, Harbh
+
+
+

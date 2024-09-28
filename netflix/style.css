@@ -1,0 +1,214 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #141515;
+}
+.main{
+    background-image: url(img/Title-Image.png);
+    
+    background-size: 100vw;
+    height: 260vh;
+    
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-color: #141515;
+
+}
+.main1{
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgb(95, 95, 95));
+}
+.left img{
+    width: 100px;
+    margin: 24px 10px;
+}
+.left{
+    color: white;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(235, 235, 235, 0.418));
+    
+    position: relative;
+    margin:7px 48px;
+    
+    
+
+}
+.left .b{
+    font-size: 18px;
+
+}
+.left span{
+    position: relative;
+    top: -33px;
+    left: 10px;
+}
+.right{
+    margin: 10px 35px;
+}
+.n img{
+    height: 40px;
+    position: relative;
+    top: 291px;
+    left: 54px;
+}
+.n .s{
+    display: inline-block;
+    position: relative;
+    top: 276px;
+    font-size: 23px;
+    left: 63px;
+    color: white;
+}
+.n h1{
+    font-size: 110px;
+    position: relative;
+    top: 190px;
+    left: 42px;
+    display: flex;
+    color: white;
+}
+.menu{
+    display: flex;
+    position: relative;
+    top: 100px;
+    width: 100px;
+    background-color: white;
+    left: 47px;
+    border-radius: 4px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+}
+.menu img{
+    height: 18px;
+}
+.menu p{
+    margin: 1px 10px;
+}
+.info{
+    display: flex;
+    position: relative;
+    top: 60px;
+    width: 131px;
+    background-color: rgb(76 68 68 / 59%);
+    left: 158px;
+    border-radius: 4px;
+    height: 41px;
+    align-items: center;
+    justify-content: center;
+}
+.info p{
+    margin: 1px 10px;
+    color: white;
+}
+.see{
+color: white;
+}
+.see p{
+    position: relative;
+    font-size: 25px;
+    top: 100px;
+    left: 48px;
+}
+.box{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 42px 57px;
+    
+    position: relative;
+    left: -13px;
+    top: 19px;
+}
+.box img{
+    margin: 2px 4px;
+    width: 254px;
+}
+.arr{
+    position: relative;
+    top: 51px;
+    left: 152px;
+}
+.con{
+    position: relative;
+    top: -700px;
+    left: 65px;
+}
+.con img{
+    width: 119px;
+    
+}
+.top{
+        
+        position: relative;
+        top: 40px;
+        left: 44px;
+        font-size: 25px;
+        color: white;
+}
+.arr1{
+    position: relative;
+    top: -10px;
+    left: 283px;
+}
+.box1{
+    position: relative;
+    top: 252px;
+    
+}
+.top1{
+position: relative;
+top: 280px;
+}
+.arr2{
+    position: relative;
+    top: 335px;
+    left: 193px;
+}
+.b{
+    position: relative;
+    top: -100px;
+}
+.last img{
+    position: relative;
+    top: 200px;
+    left: 300px;
+    opacity: 0.5;
+    margin: 10px;
+}
+.hiz{
+    border: 1px solid black;
+    width: 120px;
+    display: flex;
+    height: 43px;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.ses{
+    position: relative;
+    top: 210px;
+    left: 310px;
+    color: gray;
+    opacity: 0.8;
+}
+.sesli{
+    position: relative;
+    left: 550px;
+    top: -10px;
+    color: grey;
+    opacity: 0.8;
+}
+.sesli1{
+    position: relative;
+    left: 780px;
+    top: -100px;
+    color: grey;
+    opacity: 0.8;
+}
+.sesli2{
+    position: relative;
+    left: 1000px;
+    top: -190px;
+    color: grey;
+    opacity: 0.8;
+}

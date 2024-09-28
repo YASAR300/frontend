@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .kid {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .left img {
+        width: 150px;
+        position: absolute;
+        top: 10px;
+        left: 80px;
+    }
+
+    .right img {
+        width: 30px;
+        position: absolute;
+        top: 10px;
+        right: 153px;
+    }
+
+    .right {
+        padding: 14px 60px;
+        color: black;
+    }
+
+    .container img {
+        width: 100%;
+        position: absolute;
+        top: 54px;
+    }
+
+    .adv {
+        position: absolute;
+        top: 80px;
+        left: 80px;
+        font-size: 50px;
+        color: white;
+    }
+
+    .adv .p {
+        font-size: 30px;
+    }
+
+    .container1 {
+        margin: 5px 35px;
+
+        display: flex;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        position: absolute;
+        top: 600px;
+        justify-content: space-between;
+
+
+    }
+
+    .col-6 {
+        flex-basis: 30%;
+        min-width: 220px;
+        margin-bottom: 30px;
+
+        flex-direction: row;
+    }
+
+    .col-6 img {
+        width: 180px;
+    }
+
+    .dis {
+        position: absolute;
+        top: 585px;
+        left: 25px;
+    }
+
+    .add {
+        color: white;
+        margin: 0 65px;
+        background-color: #6096FE;
+        border-radius: 2px;
+
+    }
+
+    .add img {
+        width: 15px;
+    }
+
+    .container2 {
+        margin: 5px 40px;
+        
+        display: flex;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        position: absolute;
+        top: 1000px;
+        justify-content: space-between;
+    }
+   .col-4{
+    flex-basis: 30%;
+        min-width: 220px;
+        margin-bottom: 30px;
+
+        flex-direction: row;
+   }
+    
+
+    .col-4 img{
+        width: 250px;
+    }
+    .add1{
+        color: white;
+        margin: 0 114px;
+        background-color: #6096FE;
+        border-radius: 2px;
+    }
+    .add1 img{
+        width: 15px;
+    }
+    .container3{
+        margin: 5px 40px;
+        
+        display: flex;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        position: absolute;
+        top: 1500px;
+        justify-content: space-between;
+    }
+</style>
+
+<body>
+    <nav class="kid">
+        <div class="left">
+            <img src="img/kw-logo.png" alt="">
+        </div>
+        <div class="right">
+            <a href=""><img src="img/cart-icon.png" alt="">
+                <p>Cart items(0)</p>
+            </a>
+        </div>
+    </nav>
+    <div class="container">
+        <img src="img/kw-background.png" alt="">
+        <div class="adv">
+            <h1>Shop. <br>
+                Have. <br>
+                Repeat. <br>
+            </h1>
+            <p class="p">#New And Now</p>
+        </div>
+    </div>
+    <!-- main   -->
+    <h2 class="dis">Discover New Books</h2>
+    <div class="container1">
+
+        <div class="list">
+            <div class="col-6">
+                <img src="img/book1.png" alt="">
+                <h4>This was our pact</h4><br>
+                <p>Ryan Andrews</p><br>
+                <h4>$7.49 <a href="" class="add">Add <img src="img/cart-icon-white.png" alt=""></a></h4>
+            </div>
+        </div>
+        <div class="list">
+            <div class="col-6">
+                <img src="img/book2.png" alt="">
+                <h4>The famous five</h4><br>
+                <p>Guid Blyton</p><br>
+                <h4>$4.59 <a href="" class="add">Add <img src="img/cart-icon-white.png" alt=""></a></h4>
+            </div>
+        </div>
+        <div class="list">
+            <div class="col-6">
+                <img src="img/book3.png" alt="">
+                <h4>Matilda</h4><br>
+                <p>Roald Dahi</p><br>
+                <h4>$6.80 <a href="" class="add">Add <img src="img/cart-icon-white.png" alt=""></a></h4>
+            </div>
+        </div>
+        <div class="list">
+            <div class="col-6">
+                <img src="img/book4.png" alt="">
+                <h4>Harry Potter</h4><br>
+                <p>Ryan Andrews</p><br>
+                <h4>$7.49 <a href="" class="add">Add <img src="img/cart-icon-white.png" alt=""></a></h4>
+            </div>
+        </div>
+        <div class="list">
+            <div class="col-6">
+                <img src="img/book5.png" alt="">
+            </div>
+        </div>
+        <div class="list">
+            <div class="col-6">
+                <img src="img/book6.png" alt="">
+            </div>
+        </div>
+
+    </div>
+    <div class="container2">
+
+        <div class="list">
+            <div class="col-4">
+                <img src="img/dart-board.png" alt="" class="im">
+                <h4>This was our pact</h4><br>
+                <p>Ryan Andrews</p><br>
+                <h4>$7.49 <a href="" class="add1">Add <img src="img/cart-icon-white.png" alt=""></a></h4>
+            </div>
+        </div>
+        <div class="list">
+            <div class="col-4">
+                <img src="img/connect-four.png" alt="" class="im">
+                <h4>The famous five</h4><br>
+                <p>Guid Blyton</p><br>
+                <h4>$4.59 <a href="" class="add1">Add <img src="img/cart-icon-white.png" alt=""></a></h4>
+            </div>
+        </div>
+        <div class="list">
+            <div class="col-4">
+                <img src="img/jenga.png" alt="" class="im">
+                <h4>Matilda</h4><br>
+                <p>Roald Dahi</p><br>
+                <h4>$6.80 <a href="" class="add1">Add <img src="img/cart-icon-white.png" alt=""></a></h4>
+            </div>
+        </div>
+        <div class="list">
+            <div class="col-4">
+                <img src="img/monopoly.png" alt="" class="im">
+                <h4>Harry Potter</h4><br>
+                <p>Ryan Andrews</p><br>
+                <h4>$7.49 <a href="" class="add1">Add <img src="img/cart-icon-white.png" alt=""></a></h4>
+            </div>
+        </div>
+
+    </div>
+    <div class="container3">
+
+        <div class="list">
+            <div class="col-4">
+                <img src="img/bookmarks.png" alt="" class="im">
+                <h4>This was our pact</h4><br>
+                <p>Ryan Andrews</p><br>
+                <h4>$7.49 <a href="" class="add1">Add <img src="img/cart-icon-white.png" alt=""></a></h4>
+            </div>
+        </div>
+        <div class="list">
+            <div class="col-4">
+                <img src="img/birthday-card.png" alt="" class="im">
+                <h4>The famous five</h4><br>
+                <p>Guid Blyton</p><br>
+                <h4>$4.59 <a href="" class="add1">Add <img src="img/cart-icon-white.png" alt=""></a></h4>
+            </div>
+        </div>
+        <div class="list">
+            <div class="col-4">
+                <img src="img/stuffed-toy.png" alt="" class="im">
+                <h4>Matilda</h4><br>
+                <p>Roald Dahi</p><br>
+                <h4>$6.80 <a href="" class="add1">Add <img src="img/cart-icon-white.png" alt=""></a></h4>
+            </div>
+        </div>
+        <div class="list">
+            <div class="col-4">
+                <img src="img/dream-catcher.png" alt="" class="im">
+                <h4>Harry Potter</h4><br>
+                <p>Ryan Andrews</p><br>
+                <h4>$7.49 <a href="" class="add1">Add <img src="img/cart-icon-white.png" alt=""></a></h4>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

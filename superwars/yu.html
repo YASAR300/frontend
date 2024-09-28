@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character Cards</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-around; /* Cards ke beech space kam karne ke liye */
+            margin: 20px; /* Outer margin kam kiya */
+        }
+
+        .card {
+            border: 1px solid #ccc;
+            padding: 10px;
+            border-radius: 10px;
+            width: 120px; /* Width thoda kam kiya */
+            box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .card img {
+            width: 80px; /* Image size ko thoda kam kiya */
+            height: 80px;
+        }
+
+        .card .name {
+            font-size: 14px;
+            font-weight: bold;
+            margin: 5px 0; /* Naam ke upar niche ka gap kam kiya */
+        }
+
+        .card .score {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .scoreboard {
+            font-size: 28px; /* Score ka size thoda kam kiya */
+            font-weight: bold;
+            margin-bottom: 20px; /* Score ke niche ka margin kam kiya */
+        }
+    </style>
+</head>
+<body>
+    <div class="scoreboard">
+        5 - 0
+    </div>
+
+    <div class="container">
+        <div class="card">
+            <img src="spiderman.png" alt="Spiderman">
+            <div class="name">Spiderman</div>
+            <div class="score">12</div>
+        </div>
+
+        <div class="card">
+            <img src="wonder_woman.png" alt="Wonder Woman">
+            <div class="name">Wonder Woman</div>
+            <div class="score">30</div>
+        </div>
+
+        <div class="card">
+            <img src="captain_america.png" alt="Captain America">
+            <div class="name">Captain America</div>
+            <div class="score">50</div>
+        </div>
+
+        <div class="card">
+            <img src="gem_woman.png" alt="Gem Woman">
+            <div class="name">Gem Woman</div>
+            <div class="score">12</div>
+        </div>
+    </div>
+</body>
+</html>
+

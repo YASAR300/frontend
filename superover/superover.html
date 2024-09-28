@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+
+    }
+
+    body {
+        background-image: url(cricket-stadium-vector\ \(1\).png);
+        background-repeat: no-repeat;
+    }
+
+    .superover img {
+        width: 122px;
+        position: absolute;
+        top: 35px;
+        right: 46%;
+    }
+
+    section{
+        margin: 10vh auto;
+    }
+
+    .ball {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        border: 1px solid black;
+        border-radius: 50%;
+        text-align: center;
+        background-color: white;
+        color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .score{
+        display: flex;
+       
+        
+    }
+    h1{
+        font-size: 90px;
+        font-weight: 600;
+    }
+    span{
+        font-size: 30px;
+    }
+    #team1{
+        width: 300px;
+        height: 200px;
+        border: 1px solid black;
+        display: inline-block;
+        position: relative;
+        top: 170px;
+        left: 330px;
+        background-color: #144E8C;
+        text-align: center;
+        border-radius: 19px;
+    }
+    #team2{
+        text-align: center;
+        background-color: #47A331;
+        height: 200px;
+        width: 300px;
+        border: 1px solid black;
+        display: inline-block;
+        position: relative;
+        top: 170px;
+        left: 420px;
+        border-radius: 19px;
+    }
+    .balls{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+    }
+</style>
+
+<body>
+
+    <div class="superover">
+        <img src="so-logo.png" alt="">
+    </div>
+    <section>
+        <div class="score" id="team1">
+            <h1>IND</h1>
+            <div id="ind" class="balls">
+                <div class="ball">1</div>
+                <div class="ball">2</div>
+                <div class="ball">3</div>
+                <div class="ball">4</div>
+                <div class="ball">4</div>
+                <div class="ball">6</div>
+
+            </div>
+            <div class="scoreboard">
+                <span id="score1">0</span> /
+                <span id="wick1">0</span>
+            </div>
+        </div>
+        <div class="score" id="team2">
+            <h1>PAK</h1>
+            <div id="pak" class="balls">
+                <div class="ball">0</div>
+                <div class="ball">0</div>
+                <div class="ball">0</div>
+                <div class="ball">0</div>
+                <div class="ball">0</div>
+                <div class="ball">0</div>
+
+            </div>
+            <div class="scoreboard">
+                <span id="score2">0 </span> /
+                <span id="wick2">0</span>
+            </div>
+        </div>
+
+    </section>
+
+</body>
+
+</html>
